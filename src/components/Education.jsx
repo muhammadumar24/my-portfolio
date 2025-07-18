@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+console.log(motion);
+
 import { 
   FaGraduationCap, 
   FaSchool, 
@@ -13,18 +15,18 @@ import {
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Computer Science",
-      institution: "University of Technology",
-      period: "2019 to 2023",
+      degree: "Bachelor of Science in Software",
+      institution: "Virtual University of Pakistan",
+      period: "2024 to 2028",
       description:
         "Completed my Bachelor's degree with a focus on web development and software engineering. Gained comprehensive knowledge in algorithms, data structures, and modern programming paradigms. Developed multiple full-stack applications as part of coursework and personal projects. Participated in coding competitions and hackathons, enhancing my problem-solving abilities. This education provided me with a strong theoretical foundation while allowing me to build practical skills through hands-on projects.",
     },
     {
-      degree: "FSC In Computer Science",
-      institution: "Iqra College Kohat",
-      period: "2017 to 2019",
+      degree: "FSC In pre-Engr",
+      institution: "Science College Kohat",
+      period: "2022 - 2024",
       description:
-        "Completed my FSC in Computer Science with distinction. During this time, I developed a solid foundation in programming concepts and logical thinking. Gained hands-on experience with basic coding algorithms and computational problem-solving. This education helped me build a strong technical base early in my journey and sparked my interest in web development. The curriculum's focus on mathematics and logic helped me develop structured approaches to solving complex problems.",
+        "Completed my FSC in pre-Engr with distinction. During this time, I developed a solid foundation in programming concepts and logical thinking. Gained hands-on experience with basic coding algorithms and computational problem-solving. This education helped me build a strong technical base early in my journey and sparked my interest in web development. The curriculum's focus on mathematics and logic helped me develop structured approaches to solving complex problems.",
     },
   ];
 

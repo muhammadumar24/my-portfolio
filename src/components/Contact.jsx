@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+console.log(motion);
+
 import emailjs from "@emailjs/browser";
 import { FaMapMarkerAlt, FaEnvelope, FaGlobe, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
@@ -57,7 +59,7 @@ const Contact = () => {
   const contactInfo = [
     { icon: <FaMapMarkerAlt className="text-blue-400" />, label: "Location", value: "Peshawar, Pakistan" },
     { icon: <FaGithub className="text-blue-400" />, label: "GitHub", value: "github.com/muhammadumar" },
-    { icon: <FaEnvelope className="text-blue-400" />, label: "Email", value: "umar@example.com" },
+    { icon: <FaEnvelope className="text-blue-400" />, label: "Email", value: "muhammadumartanveer45@gmail.com" },
     { icon: <FaGlobe className="text-blue-400" />, label: "Website", value: "muhammadumar.dev" },
   ];
 

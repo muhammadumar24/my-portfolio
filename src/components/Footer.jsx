@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+console.log(motion);
+
 import {
   FaFacebook,
   FaTwitter,
@@ -301,7 +303,7 @@ const Footer = () => {
                 whileHover={{ x: 5 }}
               >
                 <FaEnvelope className="mr-2 text-blue-400" />
-                <p>umar@example.com</p>
+                <p>muhammadumartanveer45@gmail.com</p>
               </motion.div>
 
               <motion.div

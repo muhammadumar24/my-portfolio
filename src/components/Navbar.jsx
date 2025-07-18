@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+console.log(motion);
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -225,10 +226,10 @@ const Navbar = () => {
             >
               <p className="text-gray-400 mb-4">Get in touch</p>
               <a
-                href="mailto:umar@example.com"
+                href="mailto:muhammadumartanveer45@gmail.com"
                 className="text-blue-400 hover:underline"
               >
-                umar@example.com
+             muhammadumartanveer45@gmail.com
               </a>
               
               <div className="mt-6 flex space-x-4">

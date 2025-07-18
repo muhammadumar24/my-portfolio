@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+console.log(motion);
+
 import { useRef } from "react";
 import {
   FaBriefcase,
